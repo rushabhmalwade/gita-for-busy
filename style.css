@@ -1,0 +1,66 @@
+html body {
+  width: 350px;
+  height: 520px;
+  margin: 25px;
+  font-size: larger;
+  text-align: center;
+  font-family: "Tiro Devanagari Hindi", serif;
+  background-image: url(/Images/bg.jpeg);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px 0;
+  scroll-behavior: auto;
+}
+
+.button {
+  color: white;
+  background-color: #ef7401;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+  opacity: 1;
+}
+
+.flex-item {
+  margin: 10px;
+}
+
+#choose {
+  flex-direction: column;
+  display: flex;
+}
+
+select,
+option {
+  border: none;
+  outline: none;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 15px;
+
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "GITA for Busy",
+  "version": "1.0",
+  "description": "GITA for Busy",
+
+  "action": {
+    "default_popup": "popup.html",
+
+    "permissions": ["activeTab", "tabs", "storage", "tts"]
+  }
+}
